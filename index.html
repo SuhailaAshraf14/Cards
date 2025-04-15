@@ -1,46 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-   table{
-    border-collapse: collapse;
-   }
-    td {
-        border: 1px solid black;
-        padding: 10px;
-      
+    body{
+        margin:0;
     }
-    th{
-        border: 1px solid black;
-        padding: 10px;
-        background-color: #f2f2f2;
+    nav{
+        display: flex;
+        background-color: cadetblue;
+        color: white;
+        padding: 5px 10px;
+        width: 100%;
+        height: 50px;
+        justify-content: space-between;
+       
     }
+   div{
+    align-items: center;  
+    margin: 18px;
+    padding: 0 10px;
+    
+    }
+    button{
+    background-color:transparent ;
+    color: aliceblue;
+    border:none;
+    }
+    .space{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img{
+       margin-top: 100px;
+       border-radius: 100%;
+     
+    }
+   
 </style>
-
 <body>
-    <table>
-       <tr> 
-        <th>Header1</th>
-        <th>Header2</th>
-        <th>Header3</th>
-        </tr>
-        
-        <tr>
-            <td>Row1, cell1</td>
-            <td>Row1, cell2</td>
-            <td>Row1, cell2</td>
-        </tr>
-        
-        <tr>
-            <td>Row2, cell1</td>
-            <td>Row2, cell2</td>
-            <td>Row2, cell3</td>
-        </tr>
+<nav>
+    <div>
+        Sohaila Ashraf
+    </div>
 
-    </table>
+   <div>
+    <a href="skills.html"> <button>Skills</button></a>
+    <a href="contact.html"> <button>Contacts</button></a>
+   </div>
+</nav>
+<div class="space">
+    <h1>Welcome to my website</h1>
+    <img src="images/f4ab2bcaaaf2420abeda2ba4b2dedac8.jpg" alt=" my picture">
+</div>
+
 </body>
-
 </html>
